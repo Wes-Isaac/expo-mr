@@ -26,7 +26,7 @@
       "distribution": "internal",
       "autoIncrement": "true",
       "env": {
-        "APP_ENV": "STAGING"
+        "APP_ENV": "staging"
       },
       "environment": "preview",
       "channel": "preview",
