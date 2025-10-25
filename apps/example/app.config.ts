@@ -21,14 +21,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     bundleIdentifier: Env.BUNDLE_ID,
     supportsTablet: true,
     icon: {
-      light: './assets/icon-light.png',
-      dark: './assets/icon-dark.png',
+      light: './assets/images/icon.png',
+      dark: './assets/images/icon.png',
     },
   },
   android: {
     package: Env.PACKAGE,
     adaptiveIcon: {
-      foregroundImage: './assets/icon-light.png',
+      foregroundImage: './assets/images/adaptive-icon.png',
       backgroundColor: '#1F104A',
     },
     edgeToEdgeEnabled: true,
