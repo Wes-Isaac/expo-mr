@@ -48,7 +48,7 @@ const remoteEnvPath =
       : process.env.PRODUCTION_ENV;
 
 require('dotenv').config({
-  path: remoteEnvPath || envPath,
+  path: process.env.STAGING_ENV || envPath,
 });
 
 // TODO: Replace these values with your own
