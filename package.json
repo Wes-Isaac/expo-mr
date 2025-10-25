@@ -10,6 +10,8 @@
     "build:example": "turbo build --filter=\"...{./apps/example}\""
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
     "turbo": "^1.13.4",
     "typescript": "^5.8.3"
   },
